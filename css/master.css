@@ -1,0 +1,110 @@
+/*
+  [class*="col-"] {
+  text-align: center
+}*/
+
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+
+body {
+  padding-top: 120px;
+}
+
+.well, .jumbotron {
+  background-color: #edfaf1;
+}
+
+.navbar-brand *, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a {
+  background-color: #c1e186;
+  color: white;
+}
+
+.active {
+  background-color: #f2f9ed
+}
+
+.navbar-nav{
+  margin-left: 0;
+  margin-right: 0
+}
+
+.navbar-toggle {
+  background-color: #e0f0d2;
+  border: solid 3px white;
+  border-radus: 4px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:active {
+  background-color: green;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  border: none;
+  background-color: #adca95;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+  border: solid 3px white;
+  border-radius: 3px;
+  border-bottom: none;
+  border-top: none;
+  /*background-color: #879d74;*/
+  background-color: #edfaf1;
+  outline: 0
+}
+
+.navbar-default .navbar-nav > li > a:active {
+  border: solid 3px white;
+  border-radius: 3px;
+  border-bottom: none;
+  border-top: none;
+  background-color: #edfaf1;
+}
+
+.glyphicon {
+  padding-right: 10px;
+}
+
+.navbar {
+  background-color: #c1e186;
+  color: white;
+}
+
+.carousel-indicators{
+}
+
+.carousel-caption > p {
+  text-shadow: 0px 5px 10px #000;
+  text-decoration: overline;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+#home-slideshow {
+}
+
+#about-us {
+  text-align: justify;
+}
+#about-us > p {
+  font-size: 1.43em;
+}
+
+#active-tab {
+  background-color: #ecf6e4;
+  color: #000;
+}
